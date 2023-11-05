@@ -1,32 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Title -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="devleoper" content="Grace">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Title-->
     <title>Kilooto kid's camp</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    
+                
     <!-- header -->
-    <header id="home" class="page-header">
-      <h1>welcome too Kilooto kids camp</h1>
+    <header id="home" class="page-header"> 
+        <!--navigation-->
+    <nav id="nav">
+        <ul id="menuList">
+            <li id="logo"><a href="#main-description">Kilooto Camp</a></li>
+            <li><a href="#main-description" aria-label="Go to home page">Home</a></li>
+            <li><a href="#gallery" aria-label="Go to gallery">Gallery</a></li>
+            <li><a href="#schedule" aria-label="Go to Schedule">Schedule</a></li>
+            <li><a href="#signup" aria-label="Go to signup information section">Signup</a></li>
+        </ul>
+    </nav>   
     </header>
 
-    <hr />
-    <!-- navbar -->
-    <nav class="text-center">
-      <a href="index.html" aria-label="Go to home page">Home</a>
-      <a href="gallery.html" aria-label="Go to gallery">Gallery Menu</a>
-      <a href="signup.html" aria-label="Go to signup information section"
-        >Signup</a
-      >
-
-    </nav>
     <!-- main content -->
-    <main>Main content</main>
+    <main>
+        <div class="container-fluid">
+            <h1>Welcome to Kilooto Kids Camp</h1>
+            <div class="row">
+                <div  class="col-sm-12">
+                    <!--main-description-->
+                    <section class="main-description" id="main-description">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <img src="images/1.jpg" alt="image1">
+                                </div>
+                                <div class="col-lg-4">
+                                    <h2>About the Kilooto Camp</h2>
+                                    <p>
+                                        Learn, have fun, and make friends at Kalooti Kids Camp! Join us
+                                        for an unforgettable summer experience.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--schedule-->
+                    <section class="schedule" id="schedule">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <h3>Schedule for the camp</h3>
+                                        <table>
+                                            <tr>
+                                                <th>Time</th>
+                                                <th>Activity</th>
+                                            </tr>
+                                            <tr>
+                                                <td>8:00am - 8:30am</td>
+                                                <td>Breakfast</td>
+                                            </tr>
+                                            <tr>
+                                                <td>8:30am - 11:00am</td>
+                                                <td>Playtime</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11:00am - 11:30am</td>
+                                                <td>Brunch</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11:30am - 12:00am</td>
+                                                <td>Fishing</td>
+                                            </tr>
+                                        </table>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="notice">
+                                    <p>Camps begins on 23 July 2023. Make sure to be there.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--gallery-->
+                    <section class="gallery" id="gallery">
+                        <h2>Gallery</h2>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6"><img src="images/6.jpg" alt="kids1"></div>
+                                    <div class="col-md-6"><img src="images/3.jpg" alt="kids2"></div>
+                                    <div class="col-md-6"><img src="images/4.jpg" alt="kids3"></div>
+                                    <div class="col-md-6"><img src="images/5.jpg" alt="kids5"></div>
+                                </div>
+                            </div>
+                    </section>
+                    <!--signup-->
+                    <section class="signup" id="signup">
+                        <h2>Registration Form</h2>
+                        <form class="signupform" method="POST" action="https://formdump.codeinstitute.net/">
+                            <table>
+                                <tr>
+                                    <th colspan="2">Signup Form </th>
+                                </tr>
+                                <tr>
+                                     <td><label for="parent_name">Parents Full name</label></td>
+                                    <td><input type="text" id="parent_name" required name="fname" autocomplete="off"></td>
+                                </tr>
+                                          
+                                <tr>
+                                    <td><label for="childname">Child's name</label></td>
+                                    <td><input type="text" id="childname" name="lname" required autocomplete="off"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="email">Parent's Email</label></td>
+                                    <td><input type="email" id="email" name="email" required autocomplete="off"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="phonenumber">Parent's Phone number</label></td>
+                                    <td><input type="tel" id="phonenumber" name="phonenumber" required autocomplete="off"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="age">Child age</label></td>
+                                    <td><input type="number" id="age" name="age" required autocomplete="off"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="phonenumber">Prices</label></td>
+                                    <td><label for="phonenumber">200$ per child</label></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" class="btn btn-primary"></td>
+                                </tr>
+                            </table>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
     <!-- footer-->
-    <footer>Footer</footer>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Socials</h3>
+                    <a href="https://www.facebook.com/?locale=sv_SE"><i class="fab fa-facebook"></i>Facebook</a><br>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i>Instagram</a> <br>
+                        <a href="https://www.snapchat.com/sv-SE"><i class="fab fa-snapchat"></i>Snapchat</a><br>
+                       
+                </div>
+                <div class="col-md-9">
+                    <h2>Contacts</h2>
+                    <div class="contacts">Apposite River Nile</div>
+                    <p>Tel: +256803459034</p>
+                    <p>&copy; Kilooto Kids Camps</p>
+                </div>
+            </div>
+        </div>    
+    </footer>
   </body>
 </html>

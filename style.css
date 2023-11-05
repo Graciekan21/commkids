@@ -1,3 +1,114 @@
-.page-header {
-    color: green;
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    padding-bottom: 10px;
+    color:white;
+}
+
+.logo{order: 1;}
+#menuList{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    
+}
+
+
+.page-header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    
+}
+
+#nav {             
+    display: flex;            
+     justify-content: space-between;             
+     align-items: center;                        
+     padding: 10px;         
+    }           
+    #menuList {             
+        /* Add styles for the menu */            
+        list-style: none;             
+        margin: 0;            
+         padding: 0;             
+         display: flex;         
+        }         
+        #menuList li {            
+            
+            margin-right: 20px; /* Adjust the spacing between menu items */      
+          }         
+          #menuList li:last-child {            
+             margin-right: 0; /* Remove margin from the last menu item */       
+             }        
+              #menuList a {            
+                 text-decoration: none;            
+                  color: white; /* Text color for menu items */    
+                    }
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: bold;
+}
+
+.main-description {
+
+    border-radius: 10px;
+    background-color: rgb(207, 194, 194);
+}
+
+img{
+    max-width: fit-content;
+    height: 500px;
+}
+
+.signup{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.schedule{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+}
+
+table, th, td{
+    border: 2px solid white;
+    border-radius: 1px;
+}
+
+button{
+    color: yellowgreen;
+    
+}
+
+.notice{
+    padding: 30px;
+}
+
