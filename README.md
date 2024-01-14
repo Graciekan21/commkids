@@ -4,7 +4,7 @@ Welcome to KiloTo Kids Camp, a thrilling adventure-packed camp designed to ignit
 
 At KiloTo Kids Camp, we pride ourselves on offering a unique blend of educational activities and recreational fun. From experiments new things that make learning a blast to outdoor adventures that foster teamwork, our camp is a holistic experience that goes beyond traditional education.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup]()
 
 ## Features
 
@@ -15,7 +15,7 @@ At KiloTo Kids Camp, we pride ourselves on offering a unique blend of educationa
 - Navigation bar with links to different sections (Home, Gallery, Schedule, Signup).
 - Smooth scrolling effect when clicking on navigation links.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar]()
 
 - **Home Section**
 
@@ -25,32 +25,31 @@ At KiloTo Kids Camp, we pride ourselves on offering a unique blend of educationa
 - **Signup Section**
 - Registration form with fields for parent's name, child's name, email, phone number, child's age, and prices.
 - Submission button to send registration information.
-  ![Registration Form](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+  ![Registration Form]()
 
 - **Schedule Section**
 - Camp schedule with specific activities and timings.
 - Notice about the camp start date.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times]()
 
 - **The Footer**
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer]()
 
 - **Gallery Section**
 - Image gallery showcasing the camp environment and activities.
 
-![Gallery Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery Section]()
 
 - **The Sign Up Page**
 
 - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
+![Sign Up]()
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
@@ -77,8 +76,6 @@ If this section grows too long, you may want to split it off into a separate fil
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
 
@@ -112,19 +109,10 @@ Congratulations on completing your Readme, you have made another big stride in t
 
 ## Other General Project Advice
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write a Git Commit Message
-
-  - Make sure to keep the messages in the imperative mood
+- Make sure to keep the messages in the imperative mood
 
 - When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
 
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+- For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
