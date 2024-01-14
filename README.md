@@ -4,59 +4,50 @@ Welcome to KiloTo Kids Camp, a thrilling adventure-packed camp designed to ignit
 
 At KiloTo Kids Camp, we pride ourselves on offering a unique blend of educational activities and recreational fun. From experiments new things that make learning a blast to outdoor adventures that foster teamwork, our camp is a holistic experience that goes beyond traditional education.
 
- ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
-- __Navigation Bar__
+- **Navigation Bar**
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+- Navigation bar with links to different sections (Home, Gallery, Schedule, Signup).
+- Smooth scrolling effect when clicking on navigation links.
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __The landing page image__
+- **Home Section**
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+- Welcoming message and introduction.
+- Main description with an image and information about the camp.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+- **Signup Section**
+- Registration form with fields for parent's name, child's name, email, phone number, child's age, and prices.
+- Submission button to send registration information.
+  ![Registration Form](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
-
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
+- **Schedule Section**
+- Camp schedule with specific activities and timings.
+- Notice about the camp start date.
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-- __The Footer__
+- **The Footer**
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+- **Gallery Section**
+- Image gallery showcasing the camp environment and activities.
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+![Gallery Section](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+- **The Sign Up Page**
 
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+- This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
@@ -123,10 +114,12 @@ Congratulations on completing your Readme, you have made another big stride in t
 
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
 
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message
+- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write a Git Commit Message
+
   - Make sure to keep the messages in the imperative mood
 
 - When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+
   - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
 
 - Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
