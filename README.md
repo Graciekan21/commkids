@@ -1,10 +1,10 @@
 # Kilooto Kids Camp
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+Welcome to KiloTo Kids Camp, a thrilling adventure-packed camp designed to ignite the curiosity and creativity of young minds! Our camp is not just a place for learning; it's a dynamic environment where children can explore, engage, and embrace the wonders of discovery.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
+At KiloTo Kids Camp, we pride ourselves on offering a unique blend of educational activities and recreational fun. From experiments new things that make learning a blast to outdoor adventures that foster teamwork, our camp is a holistic experience that goes beyond traditional education.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+ ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features
 
