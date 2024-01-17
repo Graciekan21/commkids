@@ -5,24 +5,27 @@
 .body {
     margin: 0;
     padding: 0;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header{
-    display:flex;
+header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: green;
     padding-bottom: 10px;
-    color:white;
+    color: white;
 }
 
-.logo{order: 1;}
-#menuList{
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    
+.logo {
+    order: 1;
+}
+
+#menuList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
 }
 
 
@@ -32,33 +35,40 @@ header{
     background-color: green;
     color: white;
     padding: 20px;
-    
+
 }
 
-#nav {             
-    display: flex;            
-     justify-content: space-between;             
-     align-items: center;                        
-     padding: 10px;         
-    }           
-    #menuList {             
-        /* Add styles for the menu */            
-        list-style: none;             
-        margin: 0;            
-         padding: 0;             
-         display: flex;         
-        }         
-        #menuList li {            
-            
-            margin-right: 20px; /* Adjust the spacing between menu items */      
-          }         
-          #menuList li:last-child {            
-             margin-right: 0; /* Remove margin from the last menu item */       
-             }        
-              #menuList a {            
-                 text-decoration: none;            
-                  color: white; /* Text color for menu items */    
-                    }
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#menuList {
+    /* Add styles for the menu */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menuList li {
+
+    margin-right: 20px;
+    /* Adjust the spacing between menu items */
+}
+
+#menuList li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last menu item */
+}
+
+#menuList a {
+    text-decoration: none;
+    color: white;
+    /* Text color for menu items */
+}
 
 footer {
     background-color: green;
@@ -80,35 +90,102 @@ h4 {
     background-color: rgb(207, 194, 194);
 }
 
-img{
-    max-width: fit-content;
-    height: 500px;
-}
-
-.signup{
+.signup {
     padding-top: 30px;
     padding-bottom: 10px;
     text-align: center;
 }
 
-.schedule{
+.schedule {
     padding-top: 20px;
     padding-bottom: 10px;
     background-color: black;
     color: white;
 }
 
-table, th, td{
-    border: 2px solid white;
-    border-radius: 1px;
-}
-
-button{
+button {
     color: yellowgreen;
-    
+
 }
 
-.notice{
+.notice {
     padding: 30px;
 }
 
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 40em) {
+    .gallery {
+        width: 100%;
+        column-count: 1;
+        column-gap: 0;
+        row-gap: 0;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: solid grey 1px;
+        overflow: hidden;
+    }
+
+    img {
+        display: inline-block;
+        width: 200px;
+        object-fit: cover;
+    }
+}
+
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
+    .gallery {
+        width: 100%;
+        column-count: 2;
+        column-gap: 0;
+        row-gap: 0px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: solid grey 1px;
+        overflow: hidden;
+    }
+
+    img {
+        display: inline-block;
+        width: 300px;
+        object-fit: cover;
+
+    }
+}
+
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+    .gallery {
+        width: 100%;
+        column-count: 3;
+        column-gap: 0;
+        row-gap: 0px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: solid grey 1px;
+        overflow: hidden;
+    }
+
+    img {
+        display: inline-block;
+        width: 300px;
+        object-fit: cover;
+    }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
+    .gallery {
+        width: 100%;
+        column-count: 4;
+        column-gap: 0;
+        row-gap: 0px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: solid grey 1px;
+        overflow: hidden;
+    }
+
+    img {
+        display: inline-block;
+        width: 320px;
+        object-fit: cover;
+
+    }
+}
