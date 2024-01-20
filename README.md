@@ -1,8 +1,8 @@
 # Kilooto Kids Camp
 
-Welcome to KiloTo Kids Camp, a thrilling adventure-packed camp designed to ignite the curiosity and creativity of young minds! Our camp is not just a place for learning; it's a dynamic environment where children can explore, engage, and embrace the wonders of discovery.
+Welcome to KilooTo Kids Camp, a thrilling adventure-packed camp designed to ignite the curiosity and creativity of young minds! Our camp is not just a place for learning; it's a dynamic environment where children can explore, engage, and embrace the wonders of discovery.
 
-At KiloTo Kids Camp, we pride ourselves on offering a unique blend of educational activities and recreational fun. From experiments new things that make learning a blast to outdoor adventures that foster teamwork, our camp is a holistic experience that goes beyond traditional education.
+At KilooTo Kids Camp, we pride ourselves on offering a unique blend of educational activities and recreational fun. From experiments new things that make learning a blast to outdoor adventures that foster teamwork, our camp is a holistic experience that goes beyond traditional education.
 
 ![Responsice Mockup]()
 
@@ -14,7 +14,7 @@ At KiloTo Kids Camp, we pride ourselves on offering a unique blend of educationa
 
 - Navigation bar with links to different sections (Home, Gallery, Schedule, Signup).
 - Smooth scrolling effect when clicking on navigation links.
-
+- The nav bar has is made with the animation effect.
 ![Nav Bar]()
 
 - **Home Section**
@@ -35,25 +35,16 @@ At KiloTo Kids Camp, we pride ourselves on offering a unique blend of educationa
 
 - **The Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for
 
 ![Footer]()
 
 - **Gallery Section**
 - Image gallery showcasing the camp environment and activities.
+- When images are hovered over it show animaton effect.
 
 ![Gallery Section]()
-
-- **The Sign Up Page**
-
-- This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
-
-![Sign Up]()
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
+ 
 ### Features Left to Implement
 
 - Another feature idea
