@@ -28,6 +28,20 @@ header {
 
 }
 
+.signup {
+    background-image: url("images/signup.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 500px;
+}
+
+table {
+    border: none;
+    background-color: rgba(31, 28, 28, 0.5);
+    color: rgba(255, 255, 255, 1);
+}
 
 .page-header {
     justify-content: space-between;
@@ -36,6 +50,15 @@ header {
     color: green;
     padding: 20px;
 
+}
+
+.form-container {
+    width: 60%;
+}
+
+.form-container form {
+    right: 0;
+    float: right;
 }
 
 #nav {
