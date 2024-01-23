@@ -41,7 +41,7 @@ At KilooTo Kids Camp, we pride ourselves on offering a unique blend of education
 
 - **Gallery Section**
 - Image gallery showcasing the camp environment and activities.
-- When images are hovered over it show animaton effect.
+- The images, when hovered over there transition: transform effect.
 
 ![Gallery Section]()
  
