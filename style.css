@@ -10,11 +10,13 @@
 
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: white;
     padding-bottom: 10px;
     color: green;
+    width: 100%;
 }
 
 .logo {
@@ -22,10 +24,11 @@ header {
 }
 
 #menuList {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
     margin: 0;
     padding: 0;
-
 }
 
 .signup {
@@ -44,12 +47,11 @@ table {
 }
 
 .page-header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
     color: green;
-    padding: 20px;
-
 }
 
 .form-container {
@@ -69,6 +71,7 @@ table {
 }
 
 #menuList {
+
     /* Add styles for the menu */
     list-style: none;
     margin: 0;
@@ -98,10 +101,14 @@ table {
 }
 
 footer {
+    display: flex;
     background-color: white;
     color: green;
+    justify-items: center;
+    justify-content: center;
     text-align: center;
     padding: 10px;
+
 }
 
 h1,
@@ -109,6 +116,14 @@ h2,
 h3,
 h4 {
     font-weight: bold;
+}
+
+.col-md-3 {
+    text-align: center;
+}
+
+.col-md-9 {
+    text-align: center;
 }
 
 .main-description {
