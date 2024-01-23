@@ -10,26 +10,34 @@ At KilooTo Kids Camp, we pride ourselves on offering a unique blend of education
 
 ### Existing Features
 
+- **Logo**
+- The logo is the first element seen on the application home page.
+- It has animation text trasnformation effcet.
+
+![Kilooto camp]()
+
 - **Navigation Bar**
 
 - Navigation bar with links to different sections (Home, Gallery, Schedule, Signup).
 - Smooth scrolling effect when clicking on navigation links.
 - The nav bar has is made with the animation effect.
-![Nav Bar]()
+
+  ![Nav Bar]()
 
 - **Home Section**
 
 - Welcoming message and introduction.
 - Main description with an image and information about the camp.
+- There is a background image that show kids enjoying the summer camp
 
 - **Signup Section**
 - Registration form with fields for parent's name, child's name, email, phone number, child's age, and prices.
 - Submission button to send registration information.
-  ![Registration Form]()
+- ![Registration Form]()
 
 - **Schedule Section**
 - Camp schedule with specific activities and timings.
-- Notice about the camp start date.
+- Notice about the camp start date and the fees that one pays if you must attend.
 
 ![Meetup Times]()
 
@@ -44,7 +52,7 @@ At KilooTo Kids Camp, we pride ourselves on offering a unique blend of education
 - The images, when hovered over there transition: transform effect.
 
 ![Gallery Section]()
- 
+
 ### Features Left to Implement
 
 - Another feature idea
