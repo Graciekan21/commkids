@@ -69,7 +69,7 @@ At KilooTo Kids Camp, we pride ourselves on offering a unique blend of education
 ## Fixed bugs
 
 - The issue with the small screen, the log was fiting proper and it i removed padding and margin-left, that solved the issue.
--
+- I had a problem fixing my 
 
 ## Unfixed Bugs
 
