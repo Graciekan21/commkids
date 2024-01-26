@@ -57,6 +57,9 @@ At KilooTo Kids Camp, we pride ourselves on offering a unique blend of education
 
 ### Features Left to Implement
 
+- Transportation Management: Set up a system to manage transportation logistics for campers, including bus schedules, pickup/drop-off points, and permissions.
+- Parent Communication Platform: Establish a platform for regular communication with parents, providing updates on camp activities, important notices, and a channel for feedback.
+
 ### Testing
 
 ## Validator Testing
@@ -69,7 +72,7 @@ At KilooTo Kids Camp, we pride ourselves on offering a unique blend of education
 ## Fixed bugs
 
 - The issue with the small screen, the log was fiting proper and it i removed padding and margin-left, that solved the issue.
-- I had a problem fixing my 
+- I had a problem fixing my
 
 ## Unfixed Bugs
 
@@ -80,13 +83,14 @@ At KilooTo Kids Camp, we pride ourselves on offering a unique blend of education
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://graciekan21-kilooto-rco3447gh6.us2.codeanyapp.com/#/workspaces/kilooto>
+The live link can be found here - <https://graciekan21.github.io/kilooto/>
 
 # Credits
 
 - The text on the Home page was generated from ChatGPT.
-- The all idea was from the walk through project by Code Institute [Specific YouTube Tutorial](https://www.youtube.com/)
+- The all idea was from the walk through project Love running by Code Institute
 - The icons in the footer were taken from [Font Awesome](https://fonts.google.com/)
+- W3school was of great help too.
 
 ### Media
 
