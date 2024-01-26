@@ -57,8 +57,10 @@ At KilooTo Kids Camp, we pride ourselves on offering a unique blend of education
 
 ### Features Left to Implement
 
-- Transportation Management: Set up a system to manage transportation logistics for campers, including bus schedules, pickup/drop-off points, and permissions.
-- Parent Communication Platform: Establish a platform for regular communication with parents, providing updates on camp activities, important notices, and a channel for feedback.
+- **Transportation Management**
+- Set up a system to manage transportation logistics for campers, including bus schedules, pickup/drop-off points, and permissions.
+- **Parent Communication Platform**
+- Establish a platform for regular communication with parents, providing updates on camp activities, important notices, and a channel for feedback.
 
 ### Testing
 
@@ -66,13 +68,13 @@ At KilooTo Kids Camp, we pride ourselves on offering a unique blend of education
 
 - HTML
   - No errors were returned when passing through the official [W3C validator]()
-  - CSS
+- CSS
   - No errors were found when passing through the official [(Jigsaw) validator]()
 
 ## Fixed bugs
 
 - The issue with the small screen, the log was fiting proper and it i removed padding and margin-left, that solved the issue.
-- I had a problem fixing my
+- After adding the Animation to the logo, It was not it was not showing in the center for the smaller screens, i solved it by adding a line of code borders to logo in style.css then used Dev tools to check for the problem, that gave me a better understanding to what i should do to fix it.
 
 ## Unfixed Bugs
 
@@ -94,6 +96,6 @@ The live link can be found here - <https://graciekan21.github.io/kilooto/>
 
 ### Media
 
-- The images used on the web application are from This Open Source site [images](https://www.pexels.com/search/google%20pixel/)
+- The images used on the Kilooto application are from This Open Source site [images](https://www.pexels.com/search/google%20pixel/)
 
   - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
