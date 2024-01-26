@@ -1,8 +1,8 @@
 # Kilooto Kids Camp
 
-Welcome to KilooTo Kids Camp, a thrilling adventure-packed camp designed to ignite the curiosity and creativity of young minds! Our camp is not just a place for learning; it's a dynamic environment where children can explore, engage, and embrace the wonders of discovery.
+Welcome to Kilooto Kids Camp, an exhilarating adventure-filled haven crafted to spark the curiosity and imagination of young explorers! Our camp isn't just about learning; it's a vibrant space where children can delve into, participate, and revel in the marvels of exploration.
 
-At KilooTo Kids Camp, we pride ourselves on offering a unique blend of educational activities and recreational fun. From experiments new things that make learning a blast to outdoor adventures that foster teamwork, our camp is a holistic experience that goes beyond traditional education.
+At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pursuits and recreational delights. From hands-on experiments that transform learning into an adventure to outdoor escapades that nurture collaboration, our camp offers a comprehensive experience that transcends conventional education.
 
 ![Responsice Mockup]()
 
@@ -96,6 +96,6 @@ The live link can be found here - <https://graciekan21.github.io/kilooto/>
 
 ### Media
 
-- The images used on the Kilooto application are from This Open Source site [images](https://www.pexels.com/search/google%20pixel/)
+- The images used on the Kilooto application are from This Open Source site [images](https://www.pexels.com/search/google%20pixel/
 
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
+ 
