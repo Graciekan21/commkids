@@ -11,10 +11,10 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 ### Existing Features
 
 - **Logo**
-  - The logo is the first element seen on the application home page.
-  - It has animation text trasnformation effcet.
+  - The logo serves as the initial focal point upon entering the application's home page.
+  - It is presented using an animated text transformation effect.
 
-![Kilooto camp]()
+![Logo]()
 
 - **Navigation Bar**
 
@@ -97,5 +97,3 @@ The live link can be found here - <https://graciekan21.github.io/kilooto/>
 ### Media
 
 - The images used on the Kilooto application are from This Open Source site [images](https://www.pexels.com/search/google%20pixel/
-
- 
