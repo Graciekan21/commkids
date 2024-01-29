@@ -2,10 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
-.body {
+body {
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+#myslider {
+    width: 100%;
+    height: 400px;
+    animation: slide 10s infinite;
 }
 
 header {
@@ -101,6 +109,46 @@ table {
 
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: safe;
+}
+
+.about {
+    text-align: center;
+    justify-content: center;
+    text-shadow: white;
+}
+
+.card {
+
+    border-radius: 2%;
+    text-align: justify;
+
+}
+
+.card :hover {
+
+    border-radius: 2%;
+    color: white;
+    text-align: justify;
+    background-color: rgba(60, 60, 60, 0.3);
+    transition: ease-in-out 0.10s;
+}
+
+
+.container .card {
+    margin: 2%;
+    background-color: grey;
+    border-radius: 2%;
+    color: white;
+    text-align: justify;
+    width: 45%;
+}
+
 #menuList {
 
     /* Add styles for the menu */
@@ -158,7 +206,6 @@ table {
     border-radius: 10%;
     max-width: 100%;
     height: 300px;
-
 }
 
 .task-right {
@@ -236,7 +283,8 @@ button {
 img {
     display: block;
     width: 100%;
-    object-fit: scale-down;
+    object-fit: cover;
+    height: 400px;
     transition: transform .2s;
     /* Animation */
     margin: 0 auto;
@@ -320,96 +368,70 @@ img {
     }
 }
 
-#myslider {
-    background-color: transparent;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    overflow: hidden;
-}
-
-.slide-container {
-    margin: 50vh auto 0 auto;
-    transform: translateY(-50%);
-    width: 600px;
-    height: 450px;
-    overflow: hidden;
-}
-
-img {
-    width: 20%;
-}
-
-.image-container {
-    display: inline-block;
-    width: 3000px;
-    height: 400px;
-    position: relative;
-    transition: left 1s;
-
-    animation: slide 15s infinite;
-}
-
-.slider-image {
-    float: left;
-}
-
-.button-container {
-    position: relative;
-    top: 10px;
-}
-
-.slider-button {
-    height: 10px;
-    width: 10px;
-    margin: 4px;
-    display: inline-block;
-    border-radius: 5px;
-    background-color: rgba(white, 0.5);
-}
-
-.slider-button:hover {
-    background-color: rgba(white, 0.7);
-}
-
-#slider1:target~.image-container {
-    left: 0px;
-}
-
-#slider2:target~.image-container {
-    left: -600px;
-}
-
-#slider3:target~.image-container {
-    left: -1200px;
-}
-
-.image-container:hover {
-    animation: slide 10s infinite;
-}
-
 @keyframes slide {
     0% {
-        left: 0;
+        background-image: url("images/home-page-1.jpg");
+        transition: linear;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        object-fit: scale-down;
+        height: 400px;
     }
 
     20% {
-        left: -600px;
+        background-image: url("images/home-page-2.jpg");
+        transition: linear;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        object-fit: scale-down;
+        height: 400px;
     }
 
     40% {
-        left: -1200px;
+        background-image: url("images/home-page-3.jpg");
+        transition: linear;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        object-fit: scale-down;
+        height: 400px;
     }
 
     60% {
-        left: 0px;
+        background-image: url("images/home-page-2.jpg");
+        transition: linear;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        object-fit: scale-down;
+        height: 400px;
+
     }
 
     80% {
-        left: -600px;
+        background-image: url("images/home-page-1.jpg");
+        transition: linear;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        object-fit: scale-down;
+        height: 400px;
     }
 
     100% {
-        left: -1200px;
+        background-image: url("images/home-page-3.jpg");
+        transition: linear;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        object-fit: scale-down;
+        height: 400px;
     }
 }
