@@ -1,6 +1,6 @@
 # Kilooto Kids Camp
 
-Welcome to Kilooto Kids Camp, an exhilarating adventure-filled haven crafted to spark the curiosity and imagination of young explorers! Our camp isn't just about learning; it's a vibrant space where children can delve into, participate, and revel in the marvels of exploration.
+Welcome to Kilooto Kids Camp, an exhilarating adventure-filled haven crafted to spark the curiosity and imagination of young explorers! Our camp isn't just about learning; it's a vibrant space where children can delve into, participate, and revel in the marvels of exploration. "Kiloot" is a word in the Luganda language, meaning "dream" in English.
 
 At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pursuits and recreational delights. From hands-on experiments that transform learning into an adventure to outdoor escapades that nurture collaboration, our camp offers a comprehensive experience that transcends conventional education.
 
@@ -20,12 +20,13 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 
   - Navigation bar with links to different sections (Home, Gallery, Schedule, Signup).
   - Smooth scrolling effect when clicking on navigation links.
-  - The nav bar has is made with the animation effect.
+  - The navigation bar is designed with an animation effect.
 
 ![Nav Bar]()
 
 - **Home Section**
 
+  - The slideshow images of the camp grace the home page.
   - Welcoming message and introduction.
   - Main description with an image and information about the camp.
   - There is a background image that show kids enjoying the summer camp
@@ -73,8 +74,8 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 
 ## Fixed bugs
 
-- The issue with the small screen, the log was fiting proper and it i removed padding and margin-left, that solved the issue.
-- After adding the Animation to the logo, It was not it was not showing in the center for the smaller screens, i solved it by adding a line of code borders to logo in style.css then used Dev tools to check for the problem, that gave me a better understanding to what i should do to fix it.
+- The issue with the small screen was that the logo was not fitting properly. After removing padding and margin-left, the issue was resolved.
+- When adding animation to the logo, it was not showing in the center for smaller screens. This was resolved by adding a line of code to the logo in style.css, and then using Dev tools to identify and fix the problem, which provided a better understanding of how to address it.
 
 ## Unfixed Bugs
 
@@ -90,9 +91,10 @@ The live link can be found here - <https://graciekan21.github.io/kilooto/>
 # Credits
 
 - The text on the Home page was generated from ChatGPT.
-- The all idea was from the walk through project Love running by Code Institute
-- The icons in the footer were taken from [Font Awesome](https://fonts.google.com/)
-- W3school was of great help too.
+- The entire idea was inspired by the walkthrough project "Love running" by Code Institute.
+- The icons in the footer were sourced from Font Awesome.
+- W3Schools was of great help throughout the development process.
+- CodePen was also utilized during the development process.
 
 ### Media
 
