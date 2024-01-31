@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 html {
     touch-action: manipulation;
@@ -81,7 +81,7 @@ header {
 
 table {
     border: none;
-    background-color: rgba(31, 28, 28, 0.5);
+    background-color: rgba(31, 28, 28, 0.7);
     color: rgba(255, 255, 255, 1);
 }
 
