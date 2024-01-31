@@ -8,8 +8,11 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+    font-family: 'Times New Roman', Times, serif, Georgia;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
 }
 
 
@@ -85,6 +88,15 @@ table {
     color: rgba(255, 255, 255, 1);
 }
 
+.timetable {
+    width: 100%;
+    justify-self: center;
+}
+
+.timetable th {
+    text-align: left;
+}
+
 .page-header {
     display: flex;
     justify-content: center;
@@ -127,25 +139,22 @@ table {
 }
 
 .card {
-
     border-radius: 2%;
     text-align: justify;
-
 }
 
 .card :hover {
-
     border-radius: 2%;
-    color: white;
+    text-shadow: grey;
     text-align: justify;
-    background-color: rgba(60, 60, 60, 0.3);
+
     transition: ease-in-out 0.10s;
 }
 
 
 .container .card {
     margin: 2%;
-    background-color: grey;
+
     border-radius: 2%;
     color: white;
     text-align: justify;
@@ -194,14 +203,15 @@ table {
 }
 
 .task-left {
-    width: 29%;
-    text-align: start;
+    width: 100%;
+    text-align: center;
 }
 
 .task-center {
-    width: 29%;
+    width: 100%;
     justify-content: center;
     text-align: center;
+    margin: 2px;
 }
 
 .task-center img {
@@ -209,11 +219,13 @@ table {
     border-radius: 10%;
     max-width: 100%;
     height: 300px;
+    margin: 2px;
 }
 
 .task-right {
-    width: 29%;
-    text-align: end;
+    width: 100%;
+    text-align: center;
+    margin: 2px;
 }
 
 footer {
@@ -295,6 +307,7 @@ img {
 
 /* Small devices such as large phones (640px and up) */
 @media only screen and (min-width: 640px) {
+
     .gallery {
         width: 100%;
         column-count: 2;
@@ -314,6 +327,29 @@ img {
 
 /* Medium devices such as tablets (768px and up) */
 @media only screen and (min-width: 48em) {
+    .task-left {
+        width: 29%;
+        text-align: start;
+    }
+
+    .task-center {
+        width: 29%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .task-center img {
+        object-fit: cover;
+        border-radius: 10%;
+        max-width: 100%;
+        height: 300px;
+    }
+
+    .task-right {
+        width: 29%;
+        text-align: end;
+    }
+
     .gallery {
         width: 100%;
         column-count: 2;
@@ -437,13 +473,6 @@ img {
         object-fit: scale-down;
         height: 400px;
     }
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2;
 }
 
 .schedule {
