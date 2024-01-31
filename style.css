@@ -5,6 +5,7 @@ html {
     touch-action: manipulation;
 }
 
+/* for the body tag  */
 body {
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ body {
     background-color: #f2f2f2;
 }
 
-
+/* for the slide animation  */
 #myslider {
     width: 100%;
     height: 400px;
@@ -35,9 +36,7 @@ header {
 }
 
 #logo :hover {
-
     order: 0;
-    text-shadow: rgba(255, 255, 255, 0.3);
 }
 
 #logo {
@@ -48,7 +47,6 @@ header {
     font-size: 1.3em;
     animation: logo 2s ease-out infinite;
     text-transform: uppercase;
-    text-shadow: rgba(25, 255, 25, 0.3);
 }
 
 @keyframes logo {
@@ -127,15 +125,12 @@ table {
 .container {
     display: flex;
     flex-direction: row;
-
     flex-wrap: wrap;
-    justify-content: safe;
 }
 
 .about {
     text-align: center;
     justify-content: center;
-    text-shadow: white;
 }
 
 .card {
@@ -145,9 +140,7 @@ table {
 
 .card :hover {
     border-radius: 2%;
-    text-shadow: grey;
     text-align: justify;
-
     transition: ease-in-out 0.10s;
 }
 
