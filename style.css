@@ -1,10 +1,6 @@
 /* Google fonts import */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
-html {
-    touch-action: manipulation;
-}
-
 /* for the body tag  */
 body {
     margin: 0;
@@ -290,7 +286,7 @@ button {
 
 img {
     display: block;
-    width: 100%;
+    width: 99%;
     object-fit: cover;
     height: 400px;
     transition: transform .2s;

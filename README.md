@@ -10,6 +10,10 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 
 ### Existing Features
 
+- **Favicon**
+
+  -
+
 - **Logo**
   - The logo serves as the initial focal point upon entering the application's home page.
   - It is presented using an animated text transformation effect.
