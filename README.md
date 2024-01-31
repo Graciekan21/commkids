@@ -4,21 +4,24 @@ Welcome to Kilooto Kids Camp, an exhilarating adventure-filled haven crafted to 
 
 At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pursuits and recreational delights. From hands-on experiments that transform learning into an adventure to outdoor escapades that nurture collaboration, our camp offers a comprehensive experience that transcends conventional education.
 
-![Responsice Mockup]()
+![Responsice Mockup](/images/kilooto_kids_camp_mockup.png)
 
 ## Features
 
-### Existing Features
+- This landing web page incorporates engaging features to encourage user interaction with "Kilooto Kids Camp."
+
+## Existing Features
 
 - **Favicon**
+  - Creating a favicon from the text "kiloot" was straightforward using the online tool at. I simply entered "kiloot" as the text, customized the font style to my preference, and downloaded the generated favicon files. After uploading them to my website directory, I added the HTML code to link them for branding purposes.<https://favicon.io/>
 
-  -
+![Favicon](/android-chrome-192x192.png/)
 
 - **Logo**
   - The logo serves as the initial focal point upon entering the application's home page.
   - It is presented using an animated text transformation effect.
 
-![Logo]()
+![Logo](/images/kilooto_kids_camp_logo.png)
 
 - **Navigation Bar**
 
@@ -26,7 +29,7 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
   - Smooth scrolling effect when clicking on navigation links.
   - The navigation bar is designed with an animation effect.
 
-![Nav Bar]()
+![Nav Bar](/images/kilooto_kids_camp_nav_bar.png)
 
 - **Home Section**
 
@@ -34,31 +37,32 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
   - Welcoming message and introduction.
   - Main description with an image and information about the camp.
   - There is a background image that show kids enjoying the summer camp
+    <https://graciekan21.github.io/kilooto/>
 
 - **Signup Section**
 
   - Registration form with fields for parent's name, child's name, email, phone number, child's age, and prices.
   - Submission button to send registration information.
-    ![Registration Form]()
+    ![signup Form](/images/kilooto_kids_camp_schedule2.png)
 
 - **Schedule Section**
   - Camp schedule with specific activities and timings.
   - Notice about the camp start date and the fees that one pays if you must attend.
 
-![Meetup Times]()
+![Meetup Times](/images/kilooto_kids_camp_schedule_activities.png)
 
 - **The Footer**
 
   - The footer section includes social media links for Kilooto kids camp, to help the user with navigation, the links open to the new tab.
   - The footer section also include contacts, like telephone number and the address
 
-![Footer]()
+![Footer](/images/kilooto_kids_camp_footer.png)
 
 - **Gallery Section**
-  - Image gallery showcasing the camp environment and activities.
-  - The images, when hovered over they vewied with transition: transform effect.
+  The website features an image gallery highlighting the camp environment and various activities offered.
+  When hovering over the images, they are displayed with a transition: transform effect, providing an engaging user experience.
 
-![Gallery Section]()
+![Gallery Section](/images/kilooto_kids_camp_.gallery_page.png)
 
 ### Features Left to Implement
 
@@ -74,7 +78,7 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 - HTML
   - No errors were returned when passing through the official [W3C validator]()
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator]()
+  - No errors were found when passing through the official  but there is 1 warning for @google fonts added [(Jigsaw) validator](/images/validated_css.png)
 
 ## Fixed bugs
 
