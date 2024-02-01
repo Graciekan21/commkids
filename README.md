@@ -78,8 +78,7 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 
 - HTML
   - No errors were returned when passing through the official [W3C validator]()
-- CSS
-  - No errors were found when passing through the official but there is 1 warning for @google fonts added [(Jigsaw) validator]<https://graciekan21.github.io/kilooto/>
+  - No errors were detected in the official validation process; however, there is a single warning associated with the @google fonts line of code in the style.css file. [(Jigsaw) validator]</>
 
 ## Fixed bugs
 
@@ -95,15 +94,14 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://graciekan21.github.io/kilooto/>
+The live link can be found here - <>
 
 # Credits
 
 - The text on the Home page was generated using ChatGPT.
 - The concept was inspired by the walkthrough project "Love running" from Code Institute.
-- .
 - W3Schools provided valuable assistance during the development process.
-- CodePen was also utilized for development purposes.
+- CodePen was also utilized for development purposes for the creating of [mysliiders]
 
 ## Media
 
