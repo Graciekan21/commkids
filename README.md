@@ -59,6 +59,7 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 ![Footer](/images/kilooto_kids_camp_footer.png)
 
 - **Gallery Section**
+
   The website features an image gallery highlighting the camp environment and various activities offered.
   When hovering over the images, they are displayed with a transition: transform effect, providing an engaging user experience.
 
@@ -78,7 +79,7 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 - HTML
   - No errors were returned when passing through the official [W3C validator]()
 - CSS
-  - No errors were found when passing through the official  but there is 1 warning for @google fonts added [(Jigsaw) validator](/images/validated_css.png)
+  - No errors were found when passing through the official but there is 1 warning for @google fonts added [(Jigsaw) validator]<https://graciekan21.github.io/kilooto/>
 
 ## Fixed bugs
 
@@ -98,12 +99,12 @@ The live link can be found here - <https://graciekan21.github.io/kilooto/>
 
 # Credits
 
-- The text on the Home page was generated from ChatGPT.
-- The entire idea was inspired by the walkthrough project "Love running" by Code Institute.
-- The icons in the footer were sourced from Font Awesome.
-- W3Schools was of great help throughout the development process.
-- CodePen was also utilized during the development process.
+- The text on the Home page was generated using ChatGPT.
+- The concept was inspired by the walkthrough project "Love running" from Code Institute.
+- .
+- W3Schools provided valuable assistance during the development process.
+- CodePen was also utilized for development purposes.
 
-### Media
+## Media
 
-- The images used on the Kilooto application are from This Open Source site [images](https://www.pexels.com/search/google%20pixel/
+- The images used on the Kilooto application are from This Open Source site [images](https://www.pexels.com/search/google%20pixel/)
