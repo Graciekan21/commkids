@@ -398,7 +398,7 @@ img {
 
 @keyframes slide {
     0% {
-        background-image: url("images/home-page-1.jpg");
+        background-image: url("images/home_page_1.jpg");
         transition: linear;
         background-position: center;
         background-repeat: no-repeat;
@@ -442,7 +442,7 @@ img {
     }
 
     80% {
-        background-image: url("images/home-page-1.jpg");
+        background-image: url("images/home_page_1.jpg");
         transition: linear;
         background-position: center;
         background-repeat: no-repeat;
