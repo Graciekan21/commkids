@@ -78,12 +78,10 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 ## Validator Testing
 
 - HTML
-  - returned error but it dose not effect the code.
-    Error: A charset attribute on a meta element found after the first 1024 bytes.
-    At line 650, column 21
-    charset="utf-8"><link rel="ic
-    official [W3C validator]()
-  - No errors were detected in the official validation process; however, there is a single warning associated with the @google fonts line of code in the style.css file. [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-graciekan21-kilooto-rco3447gh6.us2.codeanyapp.com&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were detected in the official validation
+    [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgraciekan21.github.io%2Fkilooto%2F)
+- CSS
+  - No errors were detected in the official validation process; however, there is a single warning associated with the @google fonts line of code in the style.css file. [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgraciekan21.github.io%2Fkilooto%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Fixed bugs
 
