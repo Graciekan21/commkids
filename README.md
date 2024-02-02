@@ -78,7 +78,11 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 ## Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator]()
+  - returned error but it dose not effect the code.
+    Error: A charset attribute on a meta element found after the first 1024 bytes.
+    At line 650, column 21
+    charset="utf-8"><link rel="ic
+    official [W3C validator]()
   - No errors were detected in the official validation process; however, there is a single warning associated with the @google fonts line of code in the style.css file. [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-graciekan21-kilooto-rco3447gh6.us2.codeanyapp.com&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Fixed bugs
@@ -91,6 +95,11 @@ At Kilooto Kids Camp, we take pride in our distinctive fusion of educational pur
 - The trailing slash on meta tags across all my HTML pages was generating a warning feedback, but they have no effect on the code.
 
 - warning associated with the @google fonts line of code in the style.css file. it no effect to the code.
+
+- When validating Html i got this error but it dose not effect the code.
+  Error: A charset attribute on a meta element found after the first 1024 bytes.
+  At line 650, column 21
+  charset="utf-8"><link rel="ic
 
 ### Deployment
 
